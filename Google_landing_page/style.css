@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #202124;
+}
+
+.top-section{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.top-items{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    margin: 10px;
+}
+
+.item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu{
+    height: 20px; 
+    width: 20px;
+}
+
+.profile{
+    background-color: rgb(98, 6, 165);
+    color: white;
+    border-radius: 100%;
+    padding: 8px 11px;
+}
+
+.profile:hover{
+    text-decoration: none;
+}
+
+.middle-section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-logo{
+    height: 100px;
+    width:300px;
+}
+
+.search-bar{
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 999px;
+    padding: 8px 10px;
+    border: 2px solid rgba(128, 128, 128, 0.341);
+    justify-content: space-between;
+    width: 600px;
+}
+
+input{
+    width: 90%;
+    border: none;
+    outline-style: none;
+    height: 25px; 
+}
+
+.search{
+    height:  18px;
+    width: 18px;
+}
+
+.mic{
+    height:  20px;
+    width: 14px;
+}
+
+.buttons{
+    margin-top: 25px;
+    display: flex;
+}
+
+.btn{
+    background-color: rgb(247, 249, 250);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.314);
+}
+
+.languages{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
+.lan{
+    margin: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.bottom-section{
+    background-color: rgb(238, 237, 237);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    align-content: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.bottom-down{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.b-items:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottom-left{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.bottom-right{
+    justify-content: space-around;
+    display: flex;
+    margin-right: 30px;
+}
+
+.b-items{
+    margin: 15px;
+}
+
+.b-items0{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.348);
+}
